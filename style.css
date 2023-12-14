@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+*,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: gainsboro;
+}
+
+ul {
+  list-style: none;
+}
+
+main {
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: 22% 1fr;
+  grid-gap: 1rem;
+}
+
+.pessoal,
+.habilidade,
+.lingua {
+  padding: 1rem;
+  line-height: 2;
+}
+
+.left {
+  margin-left: 2.5rem;
+  background-color: white;
+  border-radius: 15px;
+}
+.right {
+  margin-left: 1rem;
+}
+.profissional,
+.formacao {
+  background-color: white;
+  width: 90%;
+  border-radius: 15px;
+}
+.left-image {
+  position: relative;
+}
+
+.left-image img {
+  width: 100%;
+  border-radius: 15px 7px;
+}
+
+.left-image h2 {
+  position: absolute;
+  bottom: 5px;
+  font-size: 17px;
+}
+
+.profissional,
+.formacao {
+  line-height: 2;
+  padding: 2rem;
+}
+.profissional,
+.formacao ul {
+  margin: 0.1rem 0.1rem 1rem;
+}
+.data {
+  color: rgb(26, 131, 26);
+}
+.atual {
+  background-color: green;
+  color: white;
+  padding: 0.4rem;
+  border-radius: 3px;
+}
+
+i,
+p {
+  margin: 15px;
+}
